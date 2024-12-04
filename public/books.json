@@ -1,0 +1,82 @@
+[
+    {
+      "book_category": "Fiction",
+      "id": 101,
+      "book_writer": "Alice Carter",
+      "book_tag": ["Adventure", "Mystery"],
+      "book_rating": 4.7,
+      "book_review": "A thrilling story that keeps you hooked till the last page.",
+      "book_pages": 320,
+      "book_publisher": "Penguin Random House",
+      "book_publish_year": 2021,
+      "book_image": "https://i.ibb.co.com/8z3LWws/1.jpg",
+      "book_name": "Shadows of the Cosmos"
+    },
+    {
+      "book_category": "Non-Fiction",
+      "id": 102,
+      "book_writer": "John Miller",
+      "book_tag": ["Self-help", "Motivation"],
+      "book_rating": 4.3,
+      "book_review": "An inspiring guide to achieving personal growth and success.",
+      "book_pages": 256,
+      "book_publisher": "HarperCollins",
+      "book_publish_year": 2019,
+      "book_image": "https://i.ibb.co.com/Bwt9Sh6/2.jpg",
+      "book_name": "The Artisan's Secret"
+
+    },
+    {
+      "book_category": "Science Fiction",
+      "id": 103,
+      "book_writer": "Sophie Lee",
+      "book_tag": ["Space", "Technology"],
+      "book_rating": 4.8,
+      "book_review": "A visionary tale of humanity's future among the stars.",
+      "book_pages": 410,
+      "book_publisher": "Orbit Books",
+      "book_publish_year": 2022,
+      "book_image": "https://i.ibb.co.com/yQYQ9p0/3.jpg",
+      "book_name": "Flavors of the Heart"
+    },
+    {
+      "book_category": "Fantasy",
+      "id": 104,
+      "book_writer": "Liam Brown",
+      "book_tag": ["Magic", "Adventure"],
+      "book_rating": 4.5,
+      "book_review": "An enchanting journey through a world of wonder and magic.",
+      "book_pages": 380,
+      "book_publisher": "Bloomsbury Publishing",
+      "book_publish_year": 2020,
+      "book_image": "https://i.ibb.co.com/RzNSPSZ/4.jpg",
+      "book_name": "Wonders of the Deep"
+    },
+    {
+      "book_category": "History",
+      "id": 105,
+      "book_writer": "Emily Johnson",
+      "book_tag": ["World War", "Biography"],
+      "book_rating": 4.2,
+      "book_review": "A captivating narrative of pivotal events and people in history.",
+      "book_pages": 290,
+      "book_publisher": "Simon & Schuster",
+      "book_publish_year": 2018,
+      "book_image": "https://i.ibb.co.com/RbH64cb/5.jpg",
+      "book_name": "The Enchanted Forest"
+      
+    },
+    {
+      "book_category": "Mystery",
+      "id": 106,
+      "book_writer": "Ethan Walker",
+      "book_tag": ["Detective", "Crime"],
+      "book_rating": 4.6,
+      "book_review": "A cleverly plotted mystery that keeps you guessing.",
+      "book_pages": 350,
+      "book_publisher": "Hachette Book Group",
+      "book_publish_year": 2021,
+      "book_image": "https://i.ibb.co.com/hLSpWMh/6.jpg",
+      "book_name": "The Time Traveler's Diary"
+    }
+  ]
