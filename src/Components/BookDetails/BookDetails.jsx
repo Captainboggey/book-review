@@ -2,6 +2,8 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { setReadBook } from '../../Utility/Utility';
+import { setWishList } from '../../Utility/WishList';
 
 const BookDetails = () => {
     const book = useLoaderData();
@@ -11,9 +13,11 @@ const BookDetails = () => {
     const foundedBook = book.find(book=> book.id===idInt);
 
     const handleReadBtn =()=>{
+        setReadBook(idInt)
         toast('Added To Read Books')
     }
     const handleWishListBtn = ()=>{
+        setWishList(idInt)
         toast('Added To Wish List')
     }
     return (
