@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import { getReadBook } from "../../Utility/Utility";
 import { getWishList } from "../../Utility/WishList";
 import ListedCart from "../ListedCart/ListedCart";
+import WishListCart from "../WishListCart/WishListCart";
 
 const ListedBooks = () => {
   const loadBooks = useLoaderData();
@@ -46,7 +47,7 @@ const ListedBooks = () => {
           name="my_tabs_2"
           role="tab"
           className="tab"
-          aria-label="Tab 2"
+          aria-label="Read Books"
           defaultChecked
         />
         <div
@@ -65,13 +66,17 @@ const ListedBooks = () => {
           name="my_tabs_2"
           role="tab"
           className="tab"
-          aria-label="Tab 3"
+          aria-label="Wishlist Books"
         />
         <div
           role="tabpanel"
           className="tab-content bg-base-100 border-base-300 rounded-box p-6"
         >
-          Tab content 3
+          <div>
+          {
+            wishBook.map(book=><WishListCart key={book.id} book={book}></WishListCart>)
+          }
+          </div>
         </div>
       </div>
     </div>
