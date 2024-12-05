@@ -11,9 +11,11 @@ import Home from './Components/Home/Home.jsx';
 import ListedBooks from './Components/ListedBooks/ListedBooks.jsx';
 import PagesToRead from './Components/PagesToRead/PagesToRead.jsx';
 import BookDetails from './Components/BookDetails/BookDetails.jsx';
+import Error from './Components/Error/Error.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement:<Error></Error>,
     element: <Root></Root>,
     children:[{
       path: '/',
